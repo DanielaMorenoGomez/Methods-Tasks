@@ -1,0 +1,58 @@
+/**
+  *Program testing the implementation of 4 public static methods.
+  *
+  *
+  *@author Daniela Moreno
+  *@version January 23,2016
+  */
+  
+public class TaskTests {
+
+    // method main(): program starting point
+    public static void main( String[] args ) {
+
+        System.out.println( "\nTrying favorite()\n" );
+
+        // uncomment next four after completing favorite()
+         int nbr1 = Task.favorite();
+         int nbr2 = Task.favorite();
+         System.out.println( "favorite(): nbr1 = " + nbr1  );
+         System.out.println( "favorite(): nbr2 = " + nbr2  );
+
+        System.out.println( "\nTrying isDateable() \n" );
+
+        int u1 = 19;           int v1 = 14;
+        int u2 = 20;           int v2 = 17;
+
+         boolean b1 = Task.isDateable( u1, v1 );
+         boolean b2 = Task.isDateable( u2, v2 );
+
+         System.out.println( "Task.isDateable( " + u1 + ", " + v1 + " ): "
+                                             + b1 );
+         System.out.println( "Task.isDateable( " + u2 + ", " + v2 + " ): "
+                                             + b2 );
+
+        System.out.println( "\nTrying piggyBank() \n" );
+
+        int p1 = 3;            int p2 = 4;
+        int n1 = 1;            int n2 = 5;
+        int d1 = 4;            int d2 = 6;
+        int q1 = 1;            int q2 = 7;
+        int h1 = 5;            int h2 = 8;
+
+         int c1 = Task.piggyBank( p1, n1, d1, q1, h1 );
+         int c2 = Task.piggyBank( p2, n2, d2, q2, h2 );
+
+         System.out.println( "Task.piggyBank( " + p1 + ", " + n1 + ", " + d1 + ", " + q1 + ", " + h1 + " ): " + c1 );
+         System.out.println( "Task.piggyBank( " + p2 + ", " + n2 + ", " + d2 + ", " + q2 + ", " + h2 + " ): " + c2 );        
+        
+        System.out.println( "\nTrying wasted()\n" );
+
+        // uncomment next four lines after completing wasted()
+        System.out.print( "wasted( 3.75, 30 ): " );
+        Task.wasted( 3.75, 30 );
+        System.out.print( "wasted( 7.50,  5 ): " );
+        Task.wasted( 7.50,  5 );                                         
+                                            
+    }
+}

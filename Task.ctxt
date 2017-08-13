@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ favorite()
+comment0.text=\r\n\ method\ favorite()\:\ returns\ (\ (\ (\ (16\ *\ 65\ )\ +\ 12\ )\ *\ 72\ )\ /\ 68\ )\ -\ 1\r\n\ \r\n\ @param\ \ \r\n\ @return\ \ \ \ \ \r\n
+comment1.params=y1\ y2
+comment1.target=boolean\ isDateable(int,\ int)
+comment1.text=\r\n\ method\ isDateable()\:\ returns\ whether\ the\ second\ age\ is\ dateable\ for\r\n\ a\ person\ of\ the\ first\ age\r\n\ \r\n\ @param\r\n\ @return\ \r\n
+comment2.params=pennies\ nickels\ dimes\ quarters\ halfDollars
+comment2.target=int\ piggyBank(int,\ int,\ int,\ int,\ int)
+comment3.params=r\ d
+comment3.target=void\ wasted(double,\ int)
+numComments=4
